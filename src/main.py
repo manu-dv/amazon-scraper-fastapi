@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from src.scrappers.amazon_scraper import AmazonScraper
-from src.scrappers.scraping_error import ScrapingError
+from src.scrapers.amazon_scraper import AmazonScraper
+from src.scrapers.scraping_error import ScrapingError
 
 app = FastAPI()
 amazon_scraper = AmazonScraper()
